@@ -1,0 +1,24 @@
+{
+  "name": "startext",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "gm": "^1.25.0",
+    "magica": "^0.2.17",
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.26",
+    "@types/gm": "^1.25.4"
+  }
+}
